@@ -1,0 +1,26 @@
+puts  "hello"
+
+a=10
+puts a
+
+b='xvy'
+puts b
+
+c="abc"
+puts c
+
+d=%w[1 2 3]
+puts d[0]
+puts d
+
+puts d.first
+puts d.last
+
+puts "first number is #{a}"
+puts "first list number is #{d[0]}"
+
+
+puts "value of a in double quotes= #{a}"
+puts 'value of a in single quotes= #{a}'
+
+puts b.upccase
